@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #6d28d9;
+  --secondary: #4f46e5;
+  --card-bg: rgba(255, 255, 255, 0.05);
+  --text-primary: #ffffff;
+}
+
+.project-card {
+  @apply bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg transition-all duration-300;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: none !important;
+  padding: 2rem !important;
+}
+
+.vertical-timeline-element-icon {
+  box-shadow: none !important;
+}
+
+.vertical-timeline::before {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.vertical-timeline-element-date {
+  color: #9ca3af !important;
+}
+
+/* Snap Scrolling */
+.snap-x {
+  scroll-snap-type: x mandatory;
+}
+
+.snap-center {
+  scroll-snap-align: center;
+}
+
+/* Smooth Scrolling */
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
