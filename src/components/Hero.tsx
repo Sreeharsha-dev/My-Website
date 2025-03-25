@@ -31,7 +31,7 @@ const Hero = () => {
                 </p>
 
                 <div className="flex items-center justify-center md:justify-start space-x-6 animate-fade-in animation-delay-600">
-                  <a href="My_Resume.pdf" download>
+                  <a href="M_Sreeharsha_MachineLearning_Resume.pdf" download>
                     <button className="px-6 py-3 bg-purple-600 dark:bg-purple-500 text-white rounded-full hover:bg-purple-700 dark:hover:bg-purple-600 transition-colors flex items-center space-x-2 group">
                       <Download className="w-5 h-5 group-hover:animate-bounce" />
                       <span>Download CV</span>
